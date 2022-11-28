@@ -34,10 +34,10 @@
     "subTitle": {
       "type": "string"
     },
-    "caseStudiesList": {
+    "caseStudyList": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::case-study.case-study"
+      "target": "api::case-study-list.case-study-list"
     }
   }
 }

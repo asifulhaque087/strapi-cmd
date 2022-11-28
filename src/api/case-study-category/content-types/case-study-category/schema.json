@@ -28,7 +28,7 @@
     "case_studies": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::case-study.case-study",
+      "target": "api::case-study-list.case-study-list",
       "inversedBy": "case_study_tags"
     }
   }
