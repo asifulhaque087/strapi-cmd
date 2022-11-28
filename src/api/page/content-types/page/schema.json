@@ -67,9 +67,9 @@
         "content-block.section-description-block",
         "content-block.testimonial-block",
         "content-block.two-column-text-block",
-        "slice.slice-case-study-carousel",
         "slice.slice-rich-text-with-info",
-        "slider.branding-slider"
+        "slider.branding-slider",
+        "slice.case-study-carousel-block"
       ]
     }
   }

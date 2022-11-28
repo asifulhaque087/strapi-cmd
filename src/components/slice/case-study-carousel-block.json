@@ -1,18 +1,14 @@
 {
-  "collectionName": "components_slice_slice_case_study_carousels",
+  "collectionName": "components_slice_case_study_carousel_blocks",
   "info": {
-    "displayName": "Slice_CaseStudy_Carousel",
-    "icon": "arrows-alt-h",
-    "description": ""
+    "displayName": "CaseStudy Carousel Block",
+    "icon": "book-open"
   },
   "options": {},
   "attributes": {
     "caseStudyCategory": {
       "type": "enumeration",
-      "enum": [
-        "strategy",
-        "performance"
-      ]
+      "enum": ["strategy", "performance"]
     },
     "isBigCard": {
       "type": "boolean",
