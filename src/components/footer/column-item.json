@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_column_items",
+  "info": {
+    "displayName": "Column Item",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemText": {
+      "type": "string"
+    },
+    "itemUrl": {
+      "type": "string"
+    }
+  }
+}

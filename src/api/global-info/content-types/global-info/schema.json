@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_infos",
+  "info": {
+    "singularName": "global-info",
+    "pluralName": "global-infos",
+    "displayName": "Global Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.shared-image",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "phone": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "mail": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "address": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "partnerLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.shared-image",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "copyrightText": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

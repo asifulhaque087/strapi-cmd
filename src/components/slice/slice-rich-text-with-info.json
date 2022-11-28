@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_slice_slice_rich_text_with_infos",
+  "info": {
+    "displayName": "Slice_RichText with Info",
+    "icon": "scroll",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstColumnContent": {
+      "type": "richtext"
+    },
+    "firstColumnButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "secondColumnInfoList": {
+      "displayName": "InfoItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-block.info-item"
+    },
+    "appReviewLink": {
+      "type": "string"
+    },
+    "totalReview": {
+      "type": "decimal"
+    },
+    "secondColumnButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

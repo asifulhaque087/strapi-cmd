@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "seo.seo"
+    },
+    "block": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "hero.hero-home",
+        "hero.hero-secondary",
+        "slice.carousel",
+        "slice.contact-career-opportunity-block",
+        "slice.content-list-section",
+        "slice.logo-block-with-testimonial",
+        "slice.logo-block",
+        "slice.slice-card-list",
+        "slice.slice-custom-card-list",
+        "slice.slice-featured-article",
+        "slice.slice-rich-text-block",
+        "slice.slice-video-frame",
+        "content-block.center-content-block",
+        "content-block.section-description-block",
+        "content-block.testimonial-block",
+        "content-block.two-column-text-block",
+        "slice.slice-case-study-carousel",
+        "slice.slice-rich-text-with-info",
+        "slider.branding-slider"
+      ]
+    }
+  }
+}

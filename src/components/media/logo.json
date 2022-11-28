@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_media_logos",
+  "info": {
+    "displayName": "Logo",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logoAlt": {
+      "type": "string"
+    },
+    "redirectUrl": {
+      "type": "string"
+    }
+  }
+}

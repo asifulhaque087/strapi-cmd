@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "metaDescription": {
+      "type": "string",
+      "maxLength": 155,
+      "required": true
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "sharedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sharedImageAlt": {
+      "type": "string"
+    }
+  }
+}

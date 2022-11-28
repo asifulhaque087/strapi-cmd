@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_content_block_section_description_blocks",
+  "info": {
+    "displayName": "Content List Block",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blockType": {
+      "type": "enumeration",
+      "enum": [
+        "head",
+        "list"
+      ],
+      "default": "list"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logoAlt": {
+      "type": "string",
+      "maxLength": 155
+    },
+    "contentCtaText": {
+      "type": "string"
+    },
+    "contentCtaLink": {
+      "type": "string",
+      "regex": "^(ftp|http|https):\\/\\/[^ \"]+$"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "buttonColorScheme": {
+      "type": "enumeration",
+      "enum": [
+        "white-over-green",
+        "white-over-blue",
+        "blue-over-green"
+      ],
+      "default": "white-over-blue"
+    },
+    "buttonlinkOpenNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

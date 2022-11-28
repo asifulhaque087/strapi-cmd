@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_slice_slice_video_frames",
+  "info": {
+    "displayName": "Slice_Video Frame",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "videoSource": {
+      "type": "string"
+    },
+    "isOverlappedWithHero": {
+      "type": "boolean"
+    },
+    "thumbnailAlt": {
+      "type": "string"
+    }
+  }
+}

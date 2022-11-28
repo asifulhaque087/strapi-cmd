@@ -1,0 +1,105 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_primaries",
+  "info": {
+    "singularName": "footer-primary",
+    "pluralName": "footer-primaries",
+    "displayName": "Footer Primary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "footerSubTitle": {
+      "type": "string",
+      "default": "GET IN TOUCH",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "footerTitle": {
+      "type": "string",
+      "default": "Let us transform your brand through the <tg>power of commerce<tg>",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subscriberNamePlaceholder": {
+      "type": "string",
+      "default": "YOUR NAME",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subscriberEmailAddressPlaceholder": {
+      "type": "string",
+      "default": "EMAIL ADDRESS",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subscriptionButtonText": {
+      "type": "string",
+      "default": "subscribe today",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subscriptionButtonSubmitUrl": {
+      "type": "string"
+    },
+    "firstColumnPages": {
+      "displayName": "Column Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.column-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "secondColumnPages": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "footer.column-item"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    }
+  }
+}

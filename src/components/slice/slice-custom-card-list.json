@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_slice_slice_custom_card_lists",
+  "info": {
+    "displayName": "Slice_Custom Card List",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cardLogoPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "top"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-block.section-description-block"
+    },
+    "showItemsCount": {
+      "type": "boolean",
+      "default": false
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    },
+    "jobs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::job.job"
+    },
+    "apps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::app.app"
+    },
+    "jobCardBgType": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    }
+  }
+}

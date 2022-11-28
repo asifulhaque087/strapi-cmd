@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_slice_slice_rich_text_blocks",
+  "info": {
+    "displayName": "Slice_RichText Block",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "richText": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

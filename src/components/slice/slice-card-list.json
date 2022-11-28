@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_slice_slice_card_lists",
+  "info": {
+    "displayName": "Slice_Card List",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardType": {
+      "type": "enumeration",
+      "enum": ["TEAM_CARD", "LOCATION_CARD", "CASE_STUDY_CARD", "CARD"]
+    },
+    "isFilterOption": {
+      "type": "boolean",
+      "default": false
+    },
+    "isSearchOption": {
+      "type": "boolean",
+      "default": false
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

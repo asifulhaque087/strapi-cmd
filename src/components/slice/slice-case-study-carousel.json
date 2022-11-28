@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_slice_slice_case_study_carousels",
+  "info": {
+    "displayName": "Slice_CaseStudy_Carousel",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caseStudyCategory": {
+      "type": "enumeration",
+      "enum": [
+        "strategy",
+        "performance"
+      ]
+    },
+    "isBigCard": {
+      "type": "boolean",
+      "default": true
+    },
+    "carouselOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slider.carousel-options"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    },
+    "title": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "case_studies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case-study.case-study"
+    }
+  }
+}

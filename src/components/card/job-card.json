@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_card_job_cards",
+  "info": {
+    "displayName": "Job Card",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ],
+      "default": "gradient-green"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

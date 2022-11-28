@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_content_block_header_text_blocks",
+  "info": {
+    "displayName": "Heading Text Block",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ],
+      "default": "default"
+    },
+    "headerImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.shared-image"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

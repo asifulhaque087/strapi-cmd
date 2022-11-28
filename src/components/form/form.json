@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_form_forms",
+  "info": {
+    "displayName": "Form",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

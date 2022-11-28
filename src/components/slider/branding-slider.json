@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_slider_branding_sliders",
+  "info": {
+    "displayName": "Branding Slider",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.shared-image"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

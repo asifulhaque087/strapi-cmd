@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_hero_hero_homes",
+  "info": {
+    "displayName": "Hero Primary",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "subText": {
+      "type": "text"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ],
+      "default": "default"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.shared-image"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.shared-image"
+    },
+    "contentWidth": {
+      "type": "enumeration",
+      "enum": ["hundred percent", "seventy percent", "fifty percent"]
+    }
+  }
+}

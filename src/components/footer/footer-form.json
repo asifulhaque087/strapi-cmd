@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_footer_footer_forms",
+  "info": {
+    "displayName": "Footer Form",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "footerHeadSubtitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "footerHeadTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "footerHeadDescription": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formTitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.input",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formButtonText": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "formButtonLink": {
+      "type": "string"
+    }
+  }
+}

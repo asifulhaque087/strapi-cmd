@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.shared-image"
+    },
+    "images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "myButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-block.testimonial-block"
+    },
+    "textBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-block.two-column-text-block"
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slice.slice-card-list"
+    }
+  }
+}

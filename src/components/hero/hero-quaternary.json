@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_hero_hero_quaternaries",
+  "info": {
+    "displayName": "Hero Quaternary",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logoAlt": {
+      "type": "string"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bgImageAlt": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "featuredImageAlt": {
+      "type": "string"
+    }
+  }
+}

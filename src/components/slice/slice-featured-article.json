@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slice_slice_featured_articles",
+  "info": {
+    "displayName": "Slice_FeaturedArticle",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "isOverlappedWithHero": {
+      "type": "boolean",
+      "default": true
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

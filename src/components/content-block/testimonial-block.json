@@ -1,0 +1,87 @@
+{
+  "collectionName": "components_content_block_testimonial_blocks",
+  "info": {
+    "displayName": "Testimonial Block",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "quoteeName": {
+      "type": "string"
+    },
+    "quoteeDesignation": {
+      "type": "string"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ],
+      "default": "default"
+    },
+    "partnerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "partnerLogoAlt": {
+      "type": "string"
+    },
+    "quoteeCompanyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quoteeCompanyLogoAlt": {
+      "type": "string"
+    },
+    "quoteeHeaderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quoteeHeaderImageAlt": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

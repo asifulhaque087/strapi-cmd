@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_slice_content_list_sections",
+  "info": {
+    "displayName": "Slice_Content List Section",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "contentBlockHead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-block.section-description-block"
+    },
+    "contentBlockList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-block.section-description-block"
+    },
+    "isNumbered": {
+      "type": "boolean",
+      "default": false
+    },
+    "logoPosition": {
+      "type": "enumeration",
+      "enum": ["top", "left"]
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

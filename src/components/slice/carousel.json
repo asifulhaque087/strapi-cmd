@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_slice_carousels",
+  "info": {
+    "displayName": "Slice_Carousel",
+    "icon": "band-aid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isCenterMobileView": {
+      "type": "boolean"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "cardType": {
+      "type": "enumeration",
+      "enum": [
+        "TEAM_CARD",
+        "LOCATION_CARD",
+        "CASE_STUDY_CARD",
+        "CARD"
+      ]
+    },
+    "carouselOptions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slider.carousel-options"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "apps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::app.app"
+    },
+    "locations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::location.location"
+    },
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "podcasts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::podcast.podcast"
+    },
+    "teamMembers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team-member.team-member"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    },
+    "descShowLine": {
+      "min": 1,
+      "max": 6,
+      "type": "integer"
+    }
+  }
+}

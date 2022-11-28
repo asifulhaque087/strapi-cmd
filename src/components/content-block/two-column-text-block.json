@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_content_block_two_column_text_blocks",
+  "info": {
+    "displayName": "Two Column Text Block",
+    "icon": "text-width",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subText": {
+      "type": "text"
+    },
+    "firstColumn": {
+      "type": "richtext"
+    },
+    "secondColumn": {
+      "type": "richtext"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_button_cta_buttons",
+  "info": {
+    "displayName": "CtaLink",
+    "icon": "hand-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string",
+      "regex": "^(ftp|http|https):\\/\\/[^ \"]+$"
+    }
+  }
+}

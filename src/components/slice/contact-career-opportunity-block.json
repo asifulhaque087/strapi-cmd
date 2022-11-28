@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_slice_contact_career_opportunity_blocks",
+  "info": {
+    "displayName": "Slice_Contact / Career Opportunity Block",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgType": {
+      "type": "enumeration",
+      "enum": ["black", "gradient-blue", "gradient-green"]
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "buttonOne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "buttonTwo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "isRightAlign": {
+      "type": "boolean"
+    },
+    "isSmall": {
+      "type": "boolean"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

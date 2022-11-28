@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_hero_hero_secondaries",
+  "info": {
+    "displayName": "Hero Secondary",
+    "icon": "h-square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subText": {
+      "type": "text"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "ctaLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.cta-button"
+    },
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

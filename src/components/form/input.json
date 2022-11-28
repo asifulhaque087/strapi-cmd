@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_form_inputs",
+  "info": {
+    "displayName": "Input",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "tagType": {
+      "type": "enumeration",
+      "enum": [
+        "input",
+        "textArea"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text ",
+        "email"
+      ]
+    },
+    "isRequired": {
+      "type": "boolean"
+    }
+  }
+}

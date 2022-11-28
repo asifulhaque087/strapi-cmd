@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_config_section_paddings",
+  "info": {
+    "displayName": "Section Padding",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paddingY": {
+      "type": "enumeration",
+      "enum": ["py-120px", "py-160px", "py-200px"]
+    },
+    "paddingOff": {
+      "type": "enumeration",
+      "enum": ["top", "bottom"]
+    }
+  }
+}

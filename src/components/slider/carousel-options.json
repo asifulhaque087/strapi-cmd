@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_slider_carousel_options",
+  "info": {
+    "displayName": "Carousel Options",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showItems": {
+      "type": "enumeration",
+      "enum": [
+        "sm:1.1,md:1.5,lg:2.25,xl:3.25",
+        "sm:1.2,md:3,lg:4,xl:4",
+        "sm:1.2,md:2,lg:2.7,xl:3.14",
+        "sm:1.2,md:2,lg:2.5,xl:3"
+      ]
+    },
+    "spaceBetween": {
+      "type": "enumeration",
+      "enum": [
+        "zero",
+        "ten",
+        "twenty"
+      ]
+    },
+    "haveOffset": {
+      "type": "boolean",
+      "default": true
+    },
+    "showPagination": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "speed": {
+      "type": "string",
+      "default": "800",
+      "regex": "^\\d+$"
+    }
+  }
+}

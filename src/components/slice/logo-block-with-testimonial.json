@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_slice_logo_block_with_testimonials",
+  "info": {
+    "displayName": "Slice_Logo Block with Testimonial",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-block.testimonial-block"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.logo"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}

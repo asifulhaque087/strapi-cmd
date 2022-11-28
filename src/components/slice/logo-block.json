@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_slice_logo_blocks",
+  "info": {
+    "displayName": "Slice_Logo Block",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "isFullWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isCenterMobileView": {
+      "type": "boolean"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "logos": {
+      "displayName": "Logo",
+      "type": "component",
+      "repeatable": true,
+      "component": "media.logo"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}

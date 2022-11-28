@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_content_block_center_content_blocks",
+  "info": {
+    "displayName": "Center Content Block",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "image",
+        "white",
+        "black",
+        "gradient-blue",
+        "gradient-green"
+      ]
+    },
+    "ctaLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.cta-button"
+    },
+    "sectionPadding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.section-padding"
+    }
+  }
+}
