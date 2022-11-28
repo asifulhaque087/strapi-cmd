@@ -2,13 +2,17 @@
   "collectionName": "components_slice_case_study_carousel_blocks",
   "info": {
     "displayName": "CaseStudy Carousel Block",
-    "icon": "book-open"
+    "icon": "book-open",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "caseStudyCategory": {
       "type": "enumeration",
-      "enum": ["strategy", "performance"]
+      "enum": [
+        "strategy",
+        "performance"
+      ]
     },
     "isBigCard": {
       "type": "boolean",
@@ -29,11 +33,6 @@
     },
     "subTitle": {
       "type": "string"
-    },
-    "caseStudyList": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::case-study-list.case-study-list"
     }
   }
 }
